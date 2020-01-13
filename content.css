@@ -1,0 +1,216 @@
+.heading{
+    /* margin-left: 0.03rem; */
+    color: rgba(26, 144, 173, 0.664);
+}
+.contents{
+    margin-left: 1rem;
+}
+.box{
+   border-radius: 1rem;
+   margin: 2rem;
+   /* padding: 2%; */
+   margin-right: 2rem;
+   border-style: solid;
+   border-color: rgb(198, 214, 214) ;
+   /* position: absolute; */
+   background-color: rgb(232, 240, 238);
+   box-shadow: black;
+   width: 87%;
+   border: 1px solid;
+   padding: 10px;
+   box-shadow: 1px 10px 18px #888888;
+  
+    
+}
+.iconNotice{
+    background: url('./transparent/notice.svg');
+    height: 40px;
+    width: 40px;
+    display: block;
+}
+.boxNotice{
+    border-radius: 1rem;
+    margin: 2rem;
+    /* padding: 2%; */
+    margin-right: 2rem;
+    border-style: solid;
+    border-color: rgb(199, 129, 71) ;
+    /* position: absolute; */
+    background-color: rgb(232, 240, 238);
+    box-shadow: black;
+    width: 87%;
+    border: 2px solid red ;
+    padding: 10px;
+    box-shadow: 1px 10px 18px #888888;
+}
+.upload{
+    color: #6d6868;
+}
+.ldc{
+    margin-top: 3rem;
+}
+.iconhappy{
+    background: url('./transparent/like.svg');
+    height: 40px;
+    width: 40px;
+    display: block;
+    /* Other styles here */
+}
+.iconsad{
+    background: url('./transparent/dislike.svg');
+    height: 40px;
+    width: 40px;
+    display: block;
+    /* Other styles here */
+}
+
+.iconcomment{
+    background: url('./transparent/comment.svg');
+    height: 40px;
+    width: 40px;
+    display: block;
+    /* Other styles here */
+}
+.iconPost{
+    background: url('./transparent/send.svg');
+    height: 40px;
+    width: 40px;
+    display: block;
+    /* Other styles here */
+}
+
+
+
+.eachComment{
+    box-shadow:1px 15px 18px #888888 ;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+.eachComment:hover{
+    box-shadow:1px 25px 18px #888888 ;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+
+
+.addPostButton{
+    /* text-align: center; */
+    font-size: x-large;
+    border-radius: 5rem;
+
+}
+.addpostcont{
+    /* left:5rem; */
+    margin: 1rem;
+    position: relative;
+    box-shadow:1px 10px 18px #888888 ;
+    border-radius: 5rem;
+
+
+    
+     
+    /* height: 3rem; */
+}
+.addpostcont:active{
+    margin: 1rem;
+    position: relative;
+    box-shadow:1px 10px 40px #888888 ;
+}
+.postplan {
+    display: block;
+  width: 100%;
+  border: none;
+
+  padding: 9px 28px;
+  font-size: 26px;
+  cursor: pointer;
+  border-radius: 5rem;
+
+  /* text-align: center; */
+ }
+.commentHead{
+    background-color: #e2e0e0;
+    /* box-shadow:1px 15px 18px #888888 ; */
+    padding: 0.4rem;
+    
+}
+#like{
+    border-radius: 2rem;
+    background-color: #dfdfdf;
+    border:1px solid;
+}
+.postingForm{
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow:1px 10px 40px #888888 ;
+    border-radius: 1rem;
+    background-color: rgb(232, 240, 238);
+
+
+}
+#postbtn{
+    box-shadow:1px 10px 20px #888888 ;
+
+}
+#postbtn:active{
+    box-shadow:1px 10px 50px #888888 ;
+
+}
+.logoutdiv{
+    text-align: center;
+    box-shadow:1px 10px 50px #888888 ;
+    background-color: rgb(232, 240, 238);
+    
+
+}
+.OffAnmdiv{
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid rgb(197, 55, 55);
+}
+.more{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    
+    padding: 0.2rem;
+}
+.more:active{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow:1px 10px 18px #888888 ;
+    
+    padding: 0.2rem;
+}
+.iconMore{
+    background: url('./transparent/more.svg');
+    height: 40px;
+    width: 40px;
+    display: block;
+    /* Other styles here */
+}
+.iconMore:active{
+    background: url('./transparent/more2.svg');
+    height: 40px;
+    width: 40px;
+    display: block;
+    /* Other styles here */
+}
+.someone{
+    background: url('./transparent/anonymous.svg');
+    height: 40px;
+    width: 40px;
+    display: block;
+}
+.love{
+    background: url('./transparent/heart.svg');
+    height: 50px;
+    width: 50px;
+    display: block;
+}
+.hide{
+    z-index: -10;
+}
